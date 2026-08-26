@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>First ever HTML markups</title>
+</head>
+<body style="background: linear-gradient(to bottom, #659999, #f4791f);
+min-height: 100vh;
+margin: 0;
+font-family: 'Segoe UI';
+color: white;">
+
+        <h1>HTML5</h1>
+        <h2>Kreiranje jednog upita</h2>
+        <p>Upravo sam kreirao prvi <b>HTML5</b> markup ikada u zivotu u svom razvojnom okruzenju (IDE-u) pod nazivom Intellij <b>IDEA</b> <b>(03-08-2026)</b></p>
+
+        <p style="font-family: 'Arial'"><b>Svaki html moze sadrzati atribute, uvek se definisu na poc. tagu ili zavrsnom.
+           Atributi se postavljaju u obliku parova kljuceva i vrednosti,
+           gde je naziv atributa kljuc.</b> </p>
+
+        <button style="
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    color: gold;
+" onclick="this.style.transform='scale(0.95)'; setTimeout(() => this.style.transform='scale(1)', 100);">
+            <b>Dugme</b>
+        </button>
+<br>
+        <p>Salvete, Sancti!
+            Iucundissimum est linguam notandi discere,</p>
+        <p> quae et formas et rationes logicas continet.</p>
+
+        <p>This is a tag used for h1: &lt;h1&gt;</p>
+<br>
+
+<h3>Ordered lista</h3>
+        <ol>
+            <li>Austria</li>
+            <li>Belgium</li>
+            <li>Canada</li>
+            <li>Denmark</li>
+            <li>Serbia</li>
+        </ol>
+<br>
+        <h3>Ugnezdena Lista</h3>
+        <ul>
+            <li>Monitor</li>
+            <li>Computer
+                <ul>
+                    <li>Pre-Built Personal Computer</li>
+                    <li>Custom-Built Personal Computer</li>
+                </ul>
+            </li>
+            <li>Keyboard</li>
+            <li>Mice</li>
+        </ul>
+
+        <table border="1">
+            <tr>
+                <th>*</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <th>Morning</th>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <th>Evening</th>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table border="1">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td colspan="2">4</td>
+                <td>6</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table border="1">
+            <tr>
+                <td rowspan="2">1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </table>
+
+
+
+        <br>
+
+        <label for="username">Username: </label>
+        <input type="text" name="User Name" id="username" placeholder="Enter the user here...">
+<br>
+        <label for="password">Password: </label>
+        <input type="password" name="pass" id="password" placeholder="Enter password here...">
+
+        <h4>Odaberi drzavu odakle si</h4>
+        <input name="country" type="radio" id="serbia" value="Serbia" checked>
+        <label for="serbia">Serbia</label>
+        <br />
+        <input type="radio" name="country" id="germany" value="Germany">
+        <label for="germany">Germany</label>
+        <br />
+        <input name="country" type="radio" id="italy" value="Italy">
+        <label for="italy">Italy</label>
+
+        <br>
+        <h4>Check/Uncheck odgovor</h4>
+        <input name="question" type="checkbox" id="question" value="like">
+        <label for="question">Do you like HTML?</label>
+
+        <br>
+        <p>Ukoliko si zavrsio stikliranje i hteo bi proslediti odgovor: </p>
+        <input type="submit" value="Submit">
+        <input type="hidden" name="hiddenField" id="hiddenField" value="x">
+
+        <hr>
+
+        <h3 style="color:#00008B"><b>FAQ:</b></h3>
+        <dl>
+            <dt>Da li ce ovaj sajt biti ogroman na kraju HTML-a?</dt>
+            <dd>Da naravno da hoce mnogo ce se raditi i HTML i CSS samo ne verujem da ce sve biti na jednoj stranici jer je to previse podataka.</dd>
+            <dt><pre></pre>Hoce li cesto ovaj sajt dobijati nove podatke?</dt>
+            <dd>Da, naravno iz dana u dan ce dobijati nove funkcionalnosti<pre></pre></dd>
+            <dt>Gde mogu pronaci Steeki GitHub?</dt>
+            <dd><a href="https://github.com/Steek1?tab=repositories" target ="_blank">Click to visit Steeki's repository</a></dd>
+            <dt><pre></pre>Gde se mogu obratiti Developeru ove web aplikacije?</dt>
+            <dd><a href="mailto:stefankovacevic599@gmail.com" target="_blank">email link</a></dd>
+        </dl>
+<br>
+<hr>
+</body>
+</html>
